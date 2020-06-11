@@ -2,14 +2,13 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
   font-size: 200%;
 }
 
 h2 {
-  text-align: center;
-  font-weight: 100;
+  font-weight: 100em;
   font-size: 110%;
 }
 
@@ -19,19 +18,22 @@ nav {
   align-items: flex-end;
 
 }
+.hero{
+  display: inline;
+  align-content: center;
+}
 
 nav li {
   display: inline-block;
-  margin-top: 0;
-  margin-right: 12px;
-  margin-left: 12px;
-  margin-bottom: 0;
+  margin: 12px 12px 12px 12px;
   text-decoration: underline;
 }
 
-.blue-button {
+.blue-button
+.signup-form
+form input[type=submit]{
   background-color: blue;
-  text-decoration: none !important;
+  text-decoration: none;
   color: white;
   padding: 0.5em;
   border-radius: 6px;
@@ -40,13 +42,13 @@ nav li {
   display: inline-block;
 } 
 
-.signup-form form input[type=submit] {
-  border: none;
+ .signup-form form input[type=submit] { 
   background-color: blue;
-  text-decoration: none !important;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
   color: white;
   padding: 0.5em;
-  border-radius: 6px;
   width: 8em;
   text-align: center;
   display: inline-block;
